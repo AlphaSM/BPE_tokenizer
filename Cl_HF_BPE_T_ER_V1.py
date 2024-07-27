@@ -150,9 +150,7 @@ def main():
     print(f"\nTokenized text: {tokenized_text[0].strip()}")
     print(f"Token IDs: {tokenized_text[1].strip()}")
 
-    # Cleanup
-    os.remove(input_file)
-    os.remove(output_file)
+
 
 if __name__ == "__main__":
     main()
